@@ -2,7 +2,7 @@
 
 ---
 
-**← [Настройка окружения](../../introduction/03-setup.md)** | **[Глава 2: Целые числа и циклы](../chapters/02-integers-and-loops/README.md) →**
+**← [Настройка окружения](../../introduction/03-setup.md)** | **[Глава 2: Целые числа и циклы](../02-integers-and-loops/README.md) →**
 
 ---
 
@@ -275,4 +275,4 @@ func TestHello(t *testing.T) {
 
 ---
 
-**← [Настройка окружения](../../introduction/03-setup.md)** | **[Глава 2: Целые числа и циклы](../chapters/02-integers-and-loops/README.md) →**
+**← [Настройка окружения](../../introduction/03-setup.md)** | **[Глава 2: Целые числа и циклы](../02-integers-and-loops/README.md) →**

@@ -2,7 +2,7 @@
 
 ---
 
-**← [Глава 1: Hello, World](../chapters/01-hello-world/README.md)** | **[Глава 3: Структуры и методы](../chapters/03-structures-and-methods/README.md) →**
+**← [Глава 1: Hello, World](../01-hello-world/README.md)** | **[Глава 3: Структуры и методы](../03-structures-and-methods/README.md) →**
 
 ---
 
@@ -168,4 +168,4 @@ public class Main {
 
 ---
 
-**← [Глава 1: Hello, World](../chapters/01-hello-world/README.md)** | **[Глава 3: Структуры и методы](../chapters/03-structures-and-methods/README.md) →**
+**← [Глава 1: Hello, World](../01-hello-world/README.md)** | **[Глава 3: Структуры и методы](../03-structures-and-methods/README.md) →**
