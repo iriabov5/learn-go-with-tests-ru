@@ -214,12 +214,20 @@ FAIL    hello [build failed]
 ### Реализуйте функцию в `hello.go`
 
 ```go
-package hello
+package main
+
+import "fmt"
 
 func Hello() string {
     return "Hello, World!"
 }
+
+func main() {
+    fmt.Println(Hello())
+}
 ```
+
+Теперь файл `hello.go` содержит пакет `main` и функцию `main()`, что позволяет запустить программу с помощью команды `go run hello.go`.
 
 ### Запустите тест снова
 
@@ -309,3 +317,7 @@ go test
 ## Что дальше?
 
 Теперь, когда окружение настроено, переходим к первой главе: **Hello, World**, где мы напишем первую программу и первый тест по-настоящему.
+
+---
+
+**← [Почему Go и TDD](02-why-go-and-tdd.md)** | **[Глава 1: Hello, World](../chapters/01-hello-world/README.md) →**
