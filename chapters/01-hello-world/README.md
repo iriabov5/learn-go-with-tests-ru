@@ -1,5 +1,11 @@
 # Глава 1: Hello, World
 
+---
+
+**← [Настройка окружения](../../introduction/03-setup.md)** | **[Глава 2: Целые числа и циклы](../chapters/02-integers-and-loops/README.md) →**
+
+---
+
 Добро пожаловать в первую главу! Здесь мы напишем свою первую программу на Go и свой первый тест.
 
 ## Что вы узнаете
@@ -24,7 +30,7 @@ go mod init hello
 Создайте файл `hello_test.go`:
 
 ```go
-package hello
+package main
 
 import "testing"
 
@@ -69,10 +75,16 @@ FAIL    hello [build failed]
 Создайте файл `hello.go`:
 
 ```go
-package hello
+package main
+
+import "fmt"
 
 func Hello() string {
     return "Hello, World!"
+}
+
+func main() {
+    fmt.Println(Hello())
 }
 ```
 
@@ -140,7 +152,7 @@ hello/
 ### Тест на Go
 
 ```go
-package hello
+package main
 
 import "testing"
 
@@ -174,10 +186,16 @@ class HelloTest {
 ### Реализация на Go
 
 ```go
-package hello
+package main
+
+import "fmt"
 
 func Hello() string {
     return "Hello, World!"
+}
+
+func main() {
+    fmt.Println(Hello())
 }
 ```
 
@@ -254,3 +272,7 @@ func TestHello(t *testing.T) {
 ## Что дальше?
 
 В следующей главе мы изучим **целые числа и циклы**, научимся работать с числами и напишем более сложные тесты.
+
+---
+
+**← [Настройка окружения](../../introduction/03-setup.md)** | **[Глава 2: Целые числа и циклы](../chapters/02-integers-and-loops/README.md) →**
