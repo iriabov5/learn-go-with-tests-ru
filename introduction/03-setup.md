@@ -183,7 +183,7 @@ go mod init hello
 ### Создайте файл теста `hello_test.go`
 
 ```go
-package hello
+package main
 
 import "testing"
 
